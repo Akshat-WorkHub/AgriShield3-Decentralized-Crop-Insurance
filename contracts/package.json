@@ -1,0 +1,19 @@
+{
+  "name": "agrishield3-contracts",
+  "version": "1.0.0",
+  "description": "Smart contracts for AgriShield3 - Decentralized Parametric Crop Insurance Protocol",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "node": "hardhat node",
+    "deploy:local": "hardhat run scripts/deploy.js --network localhost"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.1"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "dotenv": "^16.4.5",
+    "hardhat": "^2.19.0"
+  }
+}
